@@ -144,4 +144,43 @@ The game currently lacks personalisation and ownership. I aim to implement a fea
   - <a href="https://app.grammarly.com/" target="_blank">Grammarly</a> was used to proof all files and remove grammatical and typographical errors.
   - <a href="https://www.notion.so/" target="_blank">Notion</a> was used to make notes and to store essential images throughout the development process. Notion also handled the compression of images in the process.
 
-  
+  ## Testing
+
+### Code Validation
+
+The application underwent thorough validation to identify and rectify any syntax errors. The <a href="https://pep8ci.herokuapp.com/">CI Python Linter</a> was employed for this validation process, and it successfully confirmed the absence of errors in the code.
+
+<details>
+  <summary>Validation Results for run.py</summary>
+  <img src="./docs/python-linter-run.png" width="700">
+</details>
+
+<details>
+  <summary>Validation Results for sinking_ship.py</summary>
+  <img src="./docs/python-linter-sinking-ship.png" width="700">
+</details>
+
+<details>
+  <summary>Validation Results for ascii_art.py</summary>
+  <img src="./docs/python-linter-ascii-art.png" width="700">
+</details>
+
+<details>
+  <summary>Validation Results for words.py</summary>
+  <img src="./docs/python-linter-words.png" width="700">
+</details>
+
+<details>
+  <summary>Validation Results for game_over.py</summary>
+  <img src="./docs/python-linter-game-over.png" width="700">
+</details>
+
+<details>
+  <summary>Validation Results for game_winner.py</summary>
+  <img src="./docs/python-linter-game-winner.png" width="700">
+</details>
+
+<details>
+  <summary>Validation Results for font_styles.py</summary>
+  <img src="./docs/python-linter-font-styles.png" width="700">
+</details>
