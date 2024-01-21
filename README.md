@@ -326,3 +326,38 @@ I referenced and tested each of my user stories throughout the testing process. 
 
 <em>I would like the challenge to remain and encounter different words than my last visit.</em>
   - The random word function, when paired with a generous list of potential secret words, aims to satisfy this need for a constant challenge. It is very unlikely that the user will encounter the same words frequently.
+
+## Resolved Bugs
+
+When applying my font styles to alter the text colour throughout this application, I encountered issues where the font colour would persist indefinitely throughout the page from the point it was first called. 
+
+<details>
+  <summary>Bug Before Fix</summary>
+  <img src="./docs/resolved-bug-before.png" width="700">
+  <img src="./docs/resolved-bug-before-two.png" width="700">
+</details>
+
+<br>
+
+To combat this, I created an additional font styling class variable which, through the use of ANSI escape codes, would cause the text to default back to the terminal default styling. I named this class variable "FIN" so that when reading my code back, it was clear where the styles would finish.
+
+
+        def welcome_page():
+        """
+        Displays the main title page
+        Prompts the user to press ENTER to begin the game
+        """
+        clear_terminal()
+
+        print(ascii_art.TITLE)
+        print(styles.BLUE_BOLD + "\nWelcome to the Watery Wordplay Wreck!" +
+              styles.FIN) <---- I inserted the new class variable wherever I wanted the styles to end.
+
+        input("Please press ENTER to begin!\n")
+        clear_terminal()
+        game_rules()
+
+<details>
+  <summary>Bug After Fix</summary>
+  <img src="./docs/resolved-bug-after.png" width="700">
+</details>
