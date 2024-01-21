@@ -40,3 +40,22 @@ As a returning user:
 To organise the logical flow of the game, I created a flow chart that outlines the individual steps. Each step is color-coded to differentiate between various types of activities.
 
 <img src="./docs/flow-chart.png" alt="Image of the project flowchart" width="700">
+
+## Existing Features
+
+### Welcome Page
+
+This serves as the initial greeting for the game, featuring the game title rendered in ASCII Art. Users are prompted to initiate the game by pressing ENTER.
+
+<img src="./docs/welcome-page.png" width="700">
+
+---
+
+### Rules Page
+
+Once the user has pressed ENTER, the terminal clears and they will be taken to the Rules Page. This page consists of:
+  -  A 'RULES' Title - again rendered in ASCII Art.
+  -  The rules of the game and explanation of the objective.
+  -  A user prompt to select their difficulty by selecting the desired number of lives.
+
+<img src="./docs/rules-page.png" width="700">
