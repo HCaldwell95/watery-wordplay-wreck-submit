@@ -15,3 +15,28 @@ I appreciate you taking the time to explore my project, and I sincerely hope you
 <a href="https://github.com/HCaldwell95/watery-wordplay-wreck" target="_blank">View the GitHub repository here</a>
 
 <em>Note: While developing this project, I recognised shortcomings in my demonstration of version control. To address this, I have reconstructed the repository, ensuring proper version control practices are now in place. You can find a link to the previous repository <a href="" target="_blank"> here</a>.</em>
+
+
+
+
+## UX - User Experience Design
+
+### User Stories
+
+As a first-time user:
+  - I would like to understand how the game works and how to play with ease.
+  - I would like the flexibility to tailor the difficulty to match my skill and comfort.
+  - I would like prompt feedback for every guess I make during the gameplay.
+  - I would like visibility of any letters or words previously used to avoid using them again.
+  - I expect to receive an error message with an explanation if my guess is deemed invalid.
+  - I wish to monitor my progress throughout the game.
+  - I would like the option to either replay the game or conclude my session once the game concludes.
+
+As a returning user:
+  - I would like to be able to relearn the game quickly and easily.
+  - I would like the challenge to remain and encounter different words than my last visit.
+
+## Logic Flow
+To organise the logical flow of the game, I created a flow chart that outlines the individual steps. Each step is color-coded to differentiate between various types of activities.
+
+<img src="./docs/flow-chart.png" alt="Image of the project flowchart" width="700">
