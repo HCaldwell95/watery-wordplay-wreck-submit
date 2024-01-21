@@ -83,3 +83,10 @@ def choose_num_of_lives():
         else:
             print(styles.YELLOW + 'Invalid input: "' + choice +
                   '" is not a valid option. Please try again.' + styles.FIN)
+
+
+def get_random_word():
+    """
+    Pulls a random word from words.py for the user to guess.
+    """
+    return random.choice(sea_themed_words).upper()
