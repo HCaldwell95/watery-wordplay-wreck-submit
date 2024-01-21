@@ -361,3 +361,62 @@ To combat this, I created an additional font styling class variable which, throu
   <summary>Bug After Fix</summary>
   <img src="./docs/resolved-bug-after.png" width="700">
 </details>
+
+## Deployment
+
+This application has been deployed using Heroku. 
+<br><a href="https://watery-wordplay-wreck-5dedc8ac41c5.herokuapp.com/" target="_blank">Link to live project</a>
+
+The steps for deploying the application are as follows:
+
+### Preparation:
+1. Ensure proper functionality of input methods in the terminal on the deployed website by adding a new line character \n at the end of each text inside the input method. This ensures that the input request will be correctly displayed in the terminal.
+
+2. If there are dependencies required for running the application on Heroku, update the "requirements.txt" file by running the command pip3 freeze > requirements.txt.
+
+3. Push all updates to GitHub.
+
+### Deploying the Application to Heroku:
+1. Log into the Heroku website.
+
+2. From the Dashboard page, click on "New" and then select "Create new app."
+
+3. Assign a name for the application, choose the region, and click "Create app."
+
+4. Once the application is created, go to the "Settings" tab and then "Reveal Config Vars" to set up config vars.
+
+5. In the KEY input field, enter "PORT" in all capitals, and set the VALUE to "8000". Click "Add." If there are other config vars required to run the application, add them here. This application does not require additional config vars.
+
+6. Scroll down to the "Buildpacks" section and click "Add buildpack."
+
+7. Add the necessary buildpacks for the application. For this project, "Python" and "Nodejs" are required.
+
+    - It is crucial to maintain the correct order of buildpacks. "Python" should be the first, followed by "Nodejs." Adjust the order by clicking and dragging if needed.
+
+8. Click "Deploy" in the top submenu.
+    - Under "Deployment method", select "GitHub" to connect to GitHub.
+    - In the "Connect to GitHub" section, enter the repository name and click "Search."
+    - Once the repository is located, click "Connect" to link the repository to the Heroku application.
+
+9. Choose either "Enable Automatic Deploys" to deploy a new version automatically whenever changes are pushed to GitHub or select "Manual Deploy." This application has "Automatic Deploys" enabled.
+
+10. After the deployment, scroll to the top of the screen and click "Open app."
+
+    - If "Enable Automatic Deploys" is selected, the application will be built and available after the next changes are pushed to GitHub.
+
+### Forking the GitHub Repository:
+
+You can fork a GitHub Repository to make a copy of the original repository to view or make changes without affecting the original repository.
+
+1. Find the GitHub repository.
+2. At the top of the page to the right, under your account, click the <em>Fork</em> button.
+3. You will now have a copy of the repository in your GitHub account.
+
+### Cloning the Repository on GitHub:
+
+1. Find the GitHub Repository.
+2. <em>Click</em> the Code button
+3. <em>Copy</em> the link shown.
+4. In <em>Gitpod</em>, change the directory to the location you would like the cloned directory to be located.
+5. <em>Type</em> <code>git clone</code>, and <em>paste</em> the link you copied in step 3.
+6. Press <em>Enter</em> to have the local clone created.
