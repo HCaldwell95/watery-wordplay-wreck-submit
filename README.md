@@ -465,6 +465,9 @@ You can fork a GitHub Repository to make a copy of the original repository to vi
 - <a href="https://www.studytonight.com/python-howtos/how-to-print-colored-text-in-python">Study Tonight</a>
     - Provided the ANSI code in Python required to style the fonts with colours. 
 
+- <a href="https://www.w3schools.com/python/python_try_except.asp">W3Schools</a>
+    - Assisted with exception handling
+
 - <a href="https://chat.openai.com/" target="_blank">ChatGPT</a>
     - This project was developed with the assistance of ChatGPT, a language model created by OpenAI. ChatGPT played a crucial role in troubleshooting code, offering guidance on concise commenting, and aiding in adhering to character restrictions. The model's capabilities were instrumental in reviewing the code line by line with confirmations for my own benefit.
 
