@@ -276,3 +276,53 @@ The images below demonstrate the input validation in action. If the user's input
 | 7     | Input Validation        | If the input is not valid, display error message                                       | Error message is displayed as expected                      | Pass        |
 | 8     | Input Validation        | Loop continues, requesting an input until valid input is submitted                     | Loop functions as expected                                  | Pass        |
 | 9     | User Input              | After the player inputs a valid command, the terminal is reset. If the choice "Y" is made, the user is returned to the Rules Page to begin a new game. Otherwise, the player is directed back to the Welcome Page. | The terminal clears and the user is returned to appropriate the page                          | Pass        |
+
+### User Stories Testing
+
+I referenced and tested each of my user stories throughout the testing process. Addressing them as follows:
+
+<em>I would like to understand how the game works and how to play with ease.</em>
+  - The Rules Page clearly outlines the rules of the game and explains expected inputs.
+
+<br>
+
+<em>I would like the flexibility to tailor the difficulty to match my skill and comfort.</em>
+  - The user is able to choose their desired number of lives, thus setting the difficulty of the game.
+
+<br>
+
+<em>I would like prompt feedback for every guess I make during the gameplay.</em>
+  - Every valid input is examined to check if it is in the word or is the actual word, and corresponding feedback is provided.
+    - If the input is correct, a green message is displayed.
+    - If the input is incorrect, a red message is displayed along with the number of lives the user has remaining.
+    - If the input is invalid, a yellow error message is displayed.
+
+<br>
+
+<em>I would like visibility of any letters or words previously used to avoid using them again.</em>
+  - After the first attempt,l used letters and words are displayed, aiding the user in their quest.
+
+<br>
+
+<em>I expect to receive an error message with an explanation if my guess is deemed invalid.</em>
+  - In case of an invalid input, an error message is presented, clarifying the expected input. This is illustrated in the Game Page section above with examples of the validation in action.
+
+<br>
+
+<em>I wish to monitor my progress throughout the game.</em>
+  - The secret word unveils correctly guessed letters and displays the remaining letters with underscores. If the user's input is incorrect, the remaining lives are displayed - enabling progress tracking.
+
+<br>
+
+<em>I would like the option to either replay the game or conclude my session once the game concludes.</em>
+  - Upon game completion, the user is prompted to either start another game or conclude the current session, regardless of whether the user had succeeded.
+
+<br>
+
+<em>I would like to be able to relearn the game quickly and easily.</em>
+  - Before a user can play the game, they are directed to the Rules Page which clearly defines the game requirements, allowing for an easy return to the game.
+
+<br>
+
+<em>I would like the challenge to remain and encounter different words than my last visit.</em>
+  - The random word function, when paired with a generous list of potential secret words, aims to satisfy this need for a constant challenge. It is very unlikely that the user will encounter the same words frequently.
