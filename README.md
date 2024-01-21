@@ -10,11 +10,11 @@ The primary objective of this project is to showcase my comprehension and applic
 
 I appreciate you taking the time to explore my project, and I sincerely hope you find as much enjoyment in it as I did during the design and development phases.
 
-<a href="https://watery-wordplay-wreck-5dedc8ac41c5.herokuapp.com/" target="_blank">View the live project</a>
+<a href="https://watery-wordplay-wreck-submit-73ab1e8a5637.herokuapp.com/" target="_blank">View the live project</a>
 
-<a href="https://github.com/HCaldwell95/watery-wordplay-wreck" target="_blank">View the GitHub repository here</a>
+<a href="https://github.com/HCaldwell95/watery-wordplay-wreck-submit" target="_blank">View the GitHub repository here</a>
 
-<em>Note: While developing this project, I recognised shortcomings in my demonstration of version control. To address this, I have reconstructed the repository, ensuring proper version control practices are now in place. You can find a link to the previous repository <a href="" target="_blank"> here</a>.</em>
+<em>Note: While developing this project, I recognised shortcomings in my demonstration of version control. To address this, I have reconstructed the repository, ensuring proper version control practices are now in place. You can find a link to the previous repository <a href="https://github.com/HCaldwell95/watery-wordplay-wreck" target="_blank"> here</a>.</em>
 
 # Table of Contents
 
