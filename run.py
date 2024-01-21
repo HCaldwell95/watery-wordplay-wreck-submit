@@ -225,7 +225,7 @@ def play_game(word, num_of_lives):
                     if guess not in used_words:
                         num_of_lives -= 1
                         used_words.append(guess)
-                        print(Styles.RED +
+                        print(Styles.red +
                               f'Sorry, "{guess}" is not the word.' +
                               Styles.fin)
 
@@ -280,7 +280,7 @@ def play_game(word, num_of_lives):
                     break
 
         # Handles invalid data input
-        except ValueError:
+        except ValueError as error:
             print(Styles.yellow +
                   f'Invalid data: {error}, please try again.\n"' +
                   Styles.fin)
