@@ -263,3 +263,16 @@ The images below demonstrate the input validation in action. If the user's input
   <img src="./docs/game-page-invalid-word-length.png" width="500">
   <img src="./docs/game-page-invalid-word-length-range.png" width="500">
 </details>
+
+### End Game Page
+| Step  | Description             | Anticipated Outcome                                                                    | Observed Outcome                                            | Status      |
+| :-----: | --------------------- | -------------------------------------------------------------------------------------- | ----------------------------------------------------------- | :---------: |
+| 1     | End Game Page           | End Game Page loads with no issues                                                     | End Game Page loads as expected                             | Pass        |
+| 2     | Display Title ASCII     | Title loads with ASCII Art                                                             | ASCII Art loads as expected                                 | Pass        |
+| 3     | Font Styles             | Font styles are displayed correctly                                                    | Font styles are displayed as expected                       | Pass        |
+| 4     | Correct Secret Word     | Correct secret word is displayed with appropriate congratulations/good effort message. | Correct word is displayed, paired with the correct message. | Pass        |
+| 5     | Restart Game            | The restart game content is displayed on both outcome screens                          | The content is displayed in both outcomes as expected       | Pass        |
+| 6     | Input Validation        | Only "Y" or "N" is accepted                                                            | Input is validated as expected                              | Pass        |
+| 7     | Input Validation        | If the input is not valid, display error message                                       | Error message is displayed as expected                      | Pass        |
+| 8     | Input Validation        | Loop continues, requesting an input until valid input is submitted                     | Loop functions as expected                                  | Pass        |
+| 9     | User Input              | After the player inputs a valid command, the terminal is reset. If the choice "Y" is made, the user is returned to the Rules Page to begin a new game. Otherwise, the player is directed back to the Welcome Page. | The terminal clears and the user is returned to appropriate the page                          | Pass        |
