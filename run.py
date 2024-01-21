@@ -297,3 +297,27 @@ def play_game(word, num_of_lives):
 
     # Asks the user if they want to play again
     restart_game()
+
+
+def start_game():
+    """
+    Initialises a new game of Watery Wordplay Wreck by setting up the game
+    parameters, including the number of lives and selecting a random word
+    to be guessed.
+
+    This function serves as the entry point for starting a new game. It calls
+    the choose_num_of_lives function to allow the user to customize the
+    difficulty level by selecting the number of lives. It then retrieves a
+    random word using get_random_word and initiates the game using play_game
+    with the selected parameters.
+
+    This modular approach enhances readability and maintainability by
+    separating the game setup from the actual gameplay logic.
+    """
+    lives = choose_num_of_lives()
+    random_word = get_random_word()
+    play_game(random_word, lives)
+
+
+# Starts the game when the script is executed
+welcome_page()
