@@ -195,7 +195,7 @@ def play_game(word, num_of_lives):
 
     draw_sinking_ship(num_of_lives)
 
-    # Main game loop
+    # Main game loop that handles input validation and determines game outcome
     while num_of_lives > 0:
 
         # Gets user input for a letter or word and converts it to uppercase
