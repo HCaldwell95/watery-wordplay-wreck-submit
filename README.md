@@ -16,8 +16,34 @@ I appreciate you taking the time to explore my project, and I sincerely hope you
 
 <em>Note: While developing this project, I recognised shortcomings in my demonstration of version control. To address this, I have reconstructed the repository, ensuring proper version control practices are now in place. You can find a link to the previous repository <a href="" target="_blank"> here</a>.</em>
 
+# Table of Contents
 
-
+1. [Introduction](#introduction)
+2. [UX - User Experience Design](#ux---user-experience-design)
+   1. [User Stories](#user-stories)
+3. [Logic Flow](#logic-flow)
+4. [Existing Features](#existing-features)
+   1. [Welcome Page](#welcome-page)
+   2. [Rules Page](#rules-page)
+   3. [Game Screen](#game-screen)
+   4. [End Game Page](#end-game-page)
+5. [Python Libraries Used](#python-libraries-used)
+6. [Technologies Used](#technologies-used)
+   1. [Programming Language](#programming-language)
+   2. [Tools Used To Develop The Game](#tools-used-to-develop-the-game)
+7. [Testing](#testing)
+   1. [Code Validation](#code-validation)
+   2. [Manual Testing](#manual-testing)
+   3. [Resolved Bugs](#resolved-bugs)
+8. [Deployment](#deployment)
+   1. [Preparation](#preparation)
+   2. [Deploying the Application to Heroku](#deploying-the-application-to-heroku)
+   3. [Forking the Github Repository](#forking-the-github-repository)
+   4. [Cloning the Repository on GitHub](#cloning-the-repository-on-github)
+9. [Credits](#credits)
+   - [Code](#code)
+   - [Media](#media)
+10. [Disclaimer](#disclaimer)
 
 ## UX - User Experience Design
 
