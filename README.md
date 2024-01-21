@@ -184,3 +184,14 @@ The application underwent thorough validation to identify and rectify any syntax
   <summary>Validation Results for font_styles.py</summary>
   <img src="./docs/python-linter-font-styles.png" width="700">
 </details>
+
+## Manual Testing
+
+
+### Welcome Page
+| Step  | Description                | Anticipated Outcome                                                        | Observed Outcome                                 | Status      |
+| :---: | -------------------------- | -------------------------------------------------------------------------- | ------------------------------------------------ | :---------: |
+| 1     | Deployed Website           | Welcome Page loads with no issues                                          | Welcome Page loads as expected                   | Pass        |
+| 2     | Display Title ASCII Art    | Title loads with ASCII Art rendering                                       | ASCII Art loads as expected                      | Pass        |
+| 3     | Font Styles                | Font styles are displayed correctly                                        | Font styles are displayed as expected            | Pass        |
+| 4     | User Input / Clear Terminal| Once the user presses ENTER, the terminal clears and loads the Rules Page  | The terminal clears and the Rules Page is loaded | Pass        |
