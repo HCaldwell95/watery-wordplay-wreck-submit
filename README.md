@@ -452,7 +452,7 @@ You can fork a GitHub Repository to make a copy of the original repository to vi
 #### Code
 
 - <a href="https://codeinstitute.net/" target="_blank">Code Institute, Various Tutors</a>
-  - Helped me to find solutions to many of my coding issues/queries and allowed me to refer to specific modules for further guidance.
+  - Helped me to find solutions to many of my coding issues/queries and allowed me to refer to specific modules for further guidance. Additional credit for providing the terminal in which my project is run.
 
 - <a href="https://www.youtube.com/watch?v=m4nEnsavl6w" target="_blank">YouTube (Kite)</a>
   - This video walkthrough helped me to understand the fundamental requirements of this application and my code has been heavily influenced by this video.
