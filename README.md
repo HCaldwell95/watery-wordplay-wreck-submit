@@ -59,3 +59,42 @@ Once the user has pressed ENTER, the terminal clears and they will be taken to t
   -  A user prompt to select their difficulty by selecting the desired number of lives.
 
 <img src="./docs/rules-page.png" width="700">
+
+---
+
+### Game Page
+
+Upon selecting the preferred number of lives, the game commences. Each session introduces a randomly chosen nautical-themed word, presenting a sinking ship image that dynamically reflects the remaining lives. The screen consistently displays the number of letters in the secret word.
+
+At the bottom of the page, the user is prompted to input either a letter or a word.
+
+<img src="./docs/game-page.png" width="700"> 
+
+<br>
+
+Each user input undergoes validation checks to determine its presence in the word or if it matches the actual word. If the user's input is found in the word, constructive feedback is provided. The revealed letter appears in the "The word to guess" field, aiding the user in tracking the word's progress.
+
+<img src="./docs/correct-guess.png" width="700">
+
+<br>
+
+If the user's input is not part of the word, feedback is shared, along with the remaining lives count. With each unsuccessful attempt, the user loses a life, and the ship begins to sink.
+
+
+<img src="./docs/incorrect-guess.png" width="700"> 
+
+<br>
+
+If a word with the same number of letters as the target word is suggested, it is checked against the secret word. If the word is a match, the game concludes with a user victory. If not, the user loses a life and the ship descends deeper into the ocean. 
+
+<img src="./docs/word-guess-validation.png" width="700">
+
+<br>
+
+After the first attempt, the letters and words that have already been used are displayed, offering assistance to the user.
+
+The user then continues to guess one letter at a time or opts to propose the entire word until either the correct word is guessed, leading to the game's conclusion, or the user exhausts all lives. 
+
+<img src="./docs/attempted-letters-and-words.png" width="700">
+
+---
