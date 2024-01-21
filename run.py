@@ -141,3 +141,35 @@ def determine_game_outcome(secret_word, actual_word, num_of_lives):
               f'"{actual_word}".')
         print("Thank you for playing our Watery Wordplay Wreck!\n")
         draw_game_over()
+
+
+def restart_game():
+    """
+    Asks the user if they would like to play the game again.
+
+    This function presents the user with the option to restart the game.
+    It provides visual prompts for the user to enter 'Y' for 'Yes'
+    or 'N' for 'No'. Depending on the user's choice, it either restarts the
+    game with new settings or returns to the main title page.
+
+    The function uses a loop to handle invalid inputs and ensures the user
+    provides a valid response before proceeding.
+    """
+
+    while True:
+        print("\nWould you like to play again? Enter " + styles.GRN_Y +
+              " for " + styles.GRN_YES + " and  " + styles.RED_N +
+              " for " + styles.RED_NO + "\n")
+
+        restart_options = {"Y": game_rules, "N": welcome_page}
+
+        restart = input("Please enter " + styles.GREEN + "Y " + styles.FIN +
+                        "or " + styles.RED + "N" + styles.FIN + ":\n").upper()
+
+        if restart in restart_options:
+            clear_terminal()
+            restart_options[restart]()
+            break
+        else:
+            print(styles.YELLOW + 'Invalid Input: Please enter "Y" or "N".\n' +
+                  styles.FIN)
