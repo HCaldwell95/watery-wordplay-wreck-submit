@@ -122,3 +122,26 @@ On this conclusive page, users can either:
 ### Future Features to Implement
 
 The game currently lacks personalisation and ownership. I aim to implement a feature enabling users to input their usernames, and their highest (and lowest) scores would be stored in a database, visible to all users through a leaderboard-style interface. This addition, featuring a leaderboard displaying the names and scores of past players, will enhance player engagement and promote continued gameplay.
+
+## Python Libraries Used 
+### random:
+  - The random library was incorporated to allow the application to randomly select a word from words.py for each game instance.
+### os:
+  - The os library facilitated communication with the operating system to refresh the terminal at various points throughout the game. This enhanced the user's experience by providing a cleaner and more enjoyable interface.
+
+## Technologies Used
+### Programming Language
+  - Python was used to build the main content of the game.
+
+### Tools Used To Develop The Game
+  - <a href="https://www.gitpod.io/" target="_blank">Gitpod</a> served as the platform for creating, editing, and previewing code throughout the development process.
+  - <a href="https://git-scm.com/" target="_blank">Git</a> was employed for version control, managing and tracking changes in the codebase.
+  - <a href="https://github.com/" target="_blank">GitHub</a> was utilised to store both the repository and the codes.
+  - <a href="https://dashboard.heroku.com/apps" target="_blank">Heroku</a> was chosen as the deployment platform for the application.
+
+### Other Online Resources
+  - <a href="https://lucid.app" target="_blank">Lucid Charts</a> was used to plan and create the logical flow of the game.
+  - <a href="https://app.grammarly.com/" target="_blank">Grammarly</a> was used to proof all files and remove grammatical and typographical errors.
+  - <a href="https://www.notion.so/" target="_blank">Notion</a> was used to make notes and to store essential images throughout the development process. Notion also handled the compression of images in the process.
+
+  
