@@ -38,7 +38,7 @@ I appreciate you taking the time to explore my project, and I sincerely hope you
 8. [Deployment](#deployment)
    1. [Preparation](#preparation)
    2. [Deploying the Application to Heroku](#deploying-the-application-to-heroku)
-   3. [Forking the Github Repository](#forking-the-github-repository)
+   3. [Forking the GitHub Repository](#forking-the-github-repository)
    4. [Cloning the Repository on GitHub](#cloning-the-repository-on-github)
 9. [Credits](#credits)
    - [Code](#code)
