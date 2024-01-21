@@ -420,3 +420,44 @@ You can fork a GitHub Repository to make a copy of the original repository to vi
 4. In <em>Gitpod</em>, change the directory to the location you would like the cloned directory to be located.
 5. <em>Type</em> <code>git clone</code>, and <em>paste</em> the link you copied in step 3.
 6. Press <em>Enter</em> to have the local clone created.
+
+## Credits
+
+#### Code
+
+- <a href="https://codeinstitute.net/" target="_blank">Code Institute, Various Tutors</a>
+  - Helped me to find solutions to many of my coding issues/queries and allowed me to refer to specific modules for further guidance.
+
+- <a href="https://www.youtube.com/watch?v=m4nEnsavl6w" target="_blank">YouTube (Kite)</a>
+  - This video walkthrough helped me to understand the fundamental requirements of this application and my code has been heavily influenced by this video.
+
+- <a href="https://www.geeksforgeeks.org/clear-screen-python/" target="_blank">GeeksforGeeks</a>
+    - Provided the code for clearing the terminal.
+
+- <a href="https://www.studytonight.com/python-howtos/how-to-print-colored-text-in-python">Study Tonight</a>
+    - Provided the ANSI code in Python required to style the fonts with colours. 
+
+- <a href="https://chat.openai.com/" target="_blank">ChatGPT</a>
+    - This project was developed with the assistance of ChatGPT, a language model created by OpenAI. ChatGPT played a crucial role in troubleshooting code, offering guidance on concise commenting, and aiding in adhering to character restrictions. The model's capabilities were instrumental in reviewing the code line by line with confirmations for my own benefit.
+
+- <a href="https://stackoverflow.com" target="_blank">Stack Overflow</a>
+    - <a href="https://stackoverflow.com/questions/39378020/how-to-display-table-in-readme-md-file-in-github" target="_blank">(Source)</a> - Provided the code to create tables in the README.md.
+    - <a href="https://stackoverflow.com/questions/28607382/is-it-possible-to-create-a-toggle-switch-in-markdown" target="_blank">(Source)</a> Provided the code for adding toggle switches in README.md.
+
+### Media
+
+- <a href="https://patorjk.com/software/taag/#p=testall&f=Slant%20Relief&t=Watery%20Wordplay" target="_blank">Patorjk</a>
+    - Provided all of the ASCII Art for the titles throughout the application.
+
+- <a href="https://emojicombos.com/" target="_blank">Emoji Combos</a>
+    - Provided all of the ASCII Art for the <a href="https://emojicombos.com/sinking-ship-ascii-art" target="_blank">Sinking Ship</a> and <a href="https://emojicombos.com/thumbs-up" target="_blank">Thumbs Up</a>.
+
+## Disclaimer
+
+This project, Watery Wordplay Wreck, is created solely for educational purposes. The content, code, and any associated materials within this project are designed to showcase the developer's understanding and application of programming concepts and should be treated as such.
+
+This project is not intended for commercial use, distribution, or any other purpose beyond educational and learning objectives. Any resemblance to real events, individuals, or entities is purely coincidental.
+
+The developer and contributors disclaim any responsibility for how this project is used outside of its intended educational context. Users are encouraged to respect ethical guidelines and legal considerations when interacting with or utilizing the content of this project.
+
+By accessing and using this project, you acknowledge and agree to use it exclusively for educational and learning purposes.
