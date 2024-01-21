@@ -90,3 +90,27 @@ def get_random_word():
     Pulls a random word from words.py for the user to guess.
     """
     return random.choice(sea_themed_words).upper()
+
+
+def print_game_state(secret_word, used_letters, used_words, num_of_lives):
+    """
+    Prints the current state of the game.
+
+    This function displays crucial information about the current state of
+    the game to aid the player in their progress. It includes the number
+    of attempts remaining (num_of_lives), the representation of the word
+    to guess (secret_word), and the lists of attempted letters and words.
+    """
+    if num_of_lives > 0:
+        print(f"You have {num_of_lives} attempts left.\n")
+    else:
+        print("Game Over")
+
+    print("\nYour " + styles.BOLD + str(len(secret_word)) +
+          " LETTER " + styles.FIN + "word to guess is: " +
+          secret_word)
+
+    print(styles.BLUE + "Attempted letters: ",
+          ", ".join(sorted(used_letters)) + styles.FIN)
+    print(styles.BLUE + "Attempted words: ",
+          ", ".join(sorted(used_words)) + styles.FIN)
