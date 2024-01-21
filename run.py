@@ -97,7 +97,7 @@ def print_game_state(secret_word, used_letters, used_words, num_of_lives):
     Prints the current state of the game.
 
     This function displays crucial information about the current state of
-    the game to aid the player in their progress. It includes the number
+    the game to aid the user in their progress. It includes the number
     of attempts remaining (num_of_lives), the representation of the word
     to guess (secret_word), and the lists of attempted letters and words.
     """
@@ -120,12 +120,12 @@ def determine_game_outcome(secret_word, actual_word, num_of_lives):
     """
     Determines the game outcome and displays the appropriate message.
 
-    This function compares the player's guessed word (secret_word) with the
+    This function compares the user's guessed word (secret_word) with the
     actual word (actual_word) to determine the outcome of the game. If the
-    guessed word matches the actual word, it congratulates the player and
+    guessed word matches the actual word, it congratulates the user and
     displays a victory message along with an animated depiction of a winning
     scenario using draw_game_winner(). If there is no match, it acknowledges
-    the player's effort, reveals the correct word, and displays a game over
+    the user's effort, reveals the correct word, and displays a game over
     message using draw_game_over().
 
     The function also clears the terminal before presenting the outcome.
