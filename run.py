@@ -28,7 +28,7 @@ def welcome_page():
     clear_terminal()
 
     print(ascii_art.GAME_TITLE)
-    print(Styles.blue_BOLD + "\nWelcome to the Watery Wordplay Wreck!" +
+    print(Styles.blue_bold + "\nWelcome to the Watery Wordplay Wreck!" +
           Styles.fin)
 
     input("Please press ENTER to begin!\n")
@@ -106,7 +106,7 @@ def print_game_state(secret_word, used_letters, used_words, num_of_lives):
     else:
         print("Game Over")
 
-    print("\nYour " + Styles.BOLD + str(len(secret_word)) +
+    print("\nYour " + Styles.bold + str(len(secret_word)) +
           " LETTER " + Styles.fin + "word to guess is: " +
           secret_word)
 
@@ -189,7 +189,7 @@ def play_game(word, num_of_lives):
 
     # Displays the game introduction and secret word information
     print("\nLet's play the Watery Wordplay Wreck! Good Luck.")
-    print("\nThis word has " + Styles.blue_BOLD + str(len(word)) +
+    print("\nThis word has " + Styles.blue_bold + str(len(word)) +
           Styles.fin + " letters.")
     print("Good Luck!")
 
@@ -199,8 +199,8 @@ def play_game(word, num_of_lives):
     while num_of_lives > 0:
 
         # Gets user input for a letter or word and converts it to uppercase
-        guess = input(f"Please enter a {Styles.BOLD}LETTER{Styles.fin} "
-                      f"or a {Styles.BOLD}WORD{Styles.fin}:\n").upper()
+        guess = input(f"Please enter a {Styles.bold}LETTER{Styles.fin} "
+                      f"or a {Styles.bold}WORD{Styles.fin}:\n").upper()
         clear_terminal()
 
         try:
@@ -280,7 +280,7 @@ def play_game(word, num_of_lives):
                     break
 
         # Handles invalid data input
-        except ValueError as error:
+        except ValueError:
             print(Styles.yellow +
                   f'Invalid data: {error}, please try again.\n"' +
                   Styles.fin)
