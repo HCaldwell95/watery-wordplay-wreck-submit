@@ -195,3 +195,20 @@ The application underwent thorough validation to identify and rectify any syntax
 | 2     | Display Title ASCII Art    | Title loads with ASCII Art rendering                                       | ASCII Art loads as expected                      | Pass        |
 | 3     | Font Styles                | Font styles are displayed correctly                                        | Font styles are displayed as expected            | Pass        |
 | 4     | User Input / Clear Terminal| Once the user presses ENTER, the terminal clears and loads the Rules Page  | The terminal clears and the Rules Page is loaded | Pass        |
+
+### Rules Page
+| Step  | Description         | Anticipated Outcome                                                                 | Observed Outcome                                 | Status      |
+| :---: | ------------------- | ----------------------------------------------------------------------------------- | ------------------------------------------------ | :---------: |
+| 1     | Rules Page          | Rules Page loads with no issues                                                     | Rules Page loads as expected                     | Pass        |
+| 2     | Display Title ASCII | Title loads with ASCII Art                                                          | ASCII Art loads as expected                      | Pass        |
+| 3     | Font Styles         | Font styles are displayed correctly                                                 | Font styles are displayed as expected            | Pass        |
+| 4     | User Input          | Only "4", "6" and "8" are accepted                                                  | Input validation works as expected               | Pass        |
+| 5     | User Input          | If the input is not valid, display error message                                    | Error message is displayed as expected           | Pass        |
+| 6     | User Input          | Continues to request an input until a valid input is provided                       | Loops function as expected                       | Pass        |
+| 7     | User Input          | Once a valid input has been entered, the terminal clears and the Game Page is loaded| The terminal clears and the Games Page is loaded | Pass        |
+
+The image below demonstrates the input validation in action. If the user's input is deemed invalid, a yellow error message is displayed and the user is prompted to choose the number of lives again until a valid input is provided.
+
+<img src="./docs/rules-input-validator.png" width="700">
+
+<br>
