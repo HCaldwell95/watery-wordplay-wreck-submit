@@ -469,7 +469,7 @@ You can fork a GitHub Repository to make a copy of the original repository to vi
     - Assisted with exception handling
 
 - <a href="https://chat.openai.com/" target="_blank">ChatGPT</a>
-    - This project was developed with the assistance of ChatGPT, a language model created by OpenAI. ChatGPT played a crucial role in troubleshooting code, offering guidance on concise commenting, and aiding in adhering to character restrictions. The model's capabilities were instrumental in reviewing the code line by line with confirmations for my own benefit.
+    - This project was developed with the assistance of ChatGPT, a language model created by OpenAI. ChatGPT played a crucial role in troubleshooting code, offering guidance on concise commenting and input validation techniques, and aiding in adhering to character restrictions. The model's capabilities were instrumental in reviewing the code line by line with confirmations for my own benefit.
 
 - <a href="https://stackoverflow.com" target="_blank">Stack Overflow</a>
     - <a href="https://stackoverflow.com/questions/39378020/how-to-display-table-in-readme-md-file-in-github" target="_blank">(Source)</a> - Provided the code to create tables in the README.md.
