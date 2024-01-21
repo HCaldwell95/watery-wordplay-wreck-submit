@@ -98,3 +98,27 @@ The user then continues to guess one letter at a time or opts to propose the ent
 <img src="./docs/attempted-letters-and-words.png" width="700">
 
 ---
+
+### End Game Page
+Upon completion of the game, users are transitioned to the End Game Page.
+
+If the word is successfully guessed, the screen showcases a triumphant "Congratulations!" message accompanied by the secret word and ASCII Art to reiterate their success.
+
+<img src="./docs/game-winner.png" width="700">
+
+<br>
+
+In the event of an unsuccessful guess resulting in no lives remaining, the "Good effort!" message appears, followed by the correct word and complemented by an ASCII Art depiction of an ocean without a ship.
+
+<img src="./docs/game-over.png" width="700">
+
+<br>
+
+On this conclusive page, users can either:
+  - opt to replay the game, which will redirect them to the Rules Page to choose new lives
+  <br>or
+  -  conclude the game, redirecting them back to the Welcome Page.
+
+### Future Features to Implement
+
+The game currently lacks personalisation and ownership. I aim to implement a feature enabling users to input their usernames, and their highest (and lowest) scores would be stored in a database, visible to all users through a leaderboard-style interface. This addition, featuring a leaderboard displaying the names and scores of past players, will enhance player engagement and promote continued gameplay.
